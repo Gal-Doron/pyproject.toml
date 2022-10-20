@@ -1,26 +1,19 @@
 [tool.poetry]
-name = "dsmi-news-recommender"
-version = "1.0.2"
-description = "Spark job to generate News Recommendations for CIQ Pro users"
-authors = ["MIDataScience <MIDataScience2@spglobal.com>"]
+name = "ccs-cost-calculator-api"
+version = "0.1.0"
+description = ""
+authors = []
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8"
+Flask-Cors = "^3.0.10"
+PyYAML = "^6.0"
+google-cloud-storage = "^2.1.0"
+pycel = "^1.0b30"
+Flask = "^2.0.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-pyspark = "3.1.2"
-scikit-learn="0.23.2"
-pandas = "1.1.3"
-scipy = "1.5.2"
-nltk = "3.5"
-pyarrow = "1.0.1"
-boto3 = "1.16.7"
-black = "^19.3b0"
-isort = "4.3.21"
-moto = "1.3.13"
+unittest-xml-reporting = "^3.2.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
